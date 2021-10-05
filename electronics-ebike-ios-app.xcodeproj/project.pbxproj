@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		203107C1270C8B5E00EF995B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203107C0270C8B5E00EF995B /* AppDelegate.swift */; };
+		203107C3270C8B5E00EF995B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203107C2270C8B5E00EF995B /* SceneDelegate.swift */; };
+		203107C5270C8B5E00EF995B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203107C4270C8B5E00EF995B /* ViewController.swift */; };
+		203107C8270C8B5E00EF995B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203107C6270C8B5E00EF995B /* Main.storyboard */; };
+		203107CB270C8B5E00EF995B /* electronics_ebike_ios_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 203107C9270C8B5E00EF995B /* electronics_ebike_ios_app.xcdatamodeld */; };
+		203107CD270C8B5F00EF995B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 203107CC270C8B5F00EF995B /* Assets.xcassets */; };
+		203107D0270C8B5F00EF995B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203107CE270C8B5F00EF995B /* LaunchScreen.storyboard */; };
+		203107DB270C8B5F00EF995B /* electronics_ebike_ios_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203107DA270C8B5F00EF995B /* electronics_ebike_ios_appTests.swift */; };
+		203107E5270C8B5F00EF995B /* electronics_ebike_ios_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203107E4270C8B5F00EF995B /* electronics_ebike_ios_appUITests.swift */; };
+		203107E7270C8B5F00EF995B /* electronics_ebike_ios_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203107E6270C8B5F00EF995B /* electronics_ebike_ios_appUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		203107D7270C8B5F00EF995B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 203107B5270C8B5E00EF995B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 203107BC270C8B5E00EF995B;
+			remoteInfo = "electronics-ebike-ios-app";
+		};
+		203107E1270C8B5F00EF995B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 203107B5270C8B5E00EF995B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 203107BC270C8B5E00EF995B;
+			remoteInfo = "electronics-ebike-ios-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		203107BD270C8B5E00EF995B /* electronics-ebike-ios-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "electronics-ebike-ios-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		203107C0270C8B5E00EF995B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		203107C2270C8B5E00EF995B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		203107C4270C8B5E00EF995B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		203107C7270C8B5E00EF995B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		203107CA270C8B5E00EF995B /* electronics_ebike_ios_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = electronics_ebike_ios_app.xcdatamodel; sourceTree = "<group>"; };
+		203107CC270C8B5F00EF995B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		203107CF270C8B5F00EF995B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		203107D1270C8B5F00EF995B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		203107D6270C8B5F00EF995B /* electronics-ebike-ios-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "electronics-ebike-ios-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		203107DA270C8B5F00EF995B /* electronics_ebike_ios_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = electronics_ebike_ios_appTests.swift; sourceTree = "<group>"; };
+		203107E0270C8B5F00EF995B /* electronics-ebike-ios-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "electronics-ebike-ios-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		203107E4270C8B5F00EF995B /* electronics_ebike_ios_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = electronics_ebike_ios_appUITests.swift; sourceTree = "<group>"; };
+		203107E6270C8B5F00EF995B /* electronics_ebike_ios_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = electronics_ebike_ios_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		203107BA270C8B5E00EF995B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		203107D3270C8B5F00EF995B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		203107DD270C8B5F00EF995B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		203107B4270C8B5E00EF995B = {
+			isa = PBXGroup;
+			children = (
+				203107BF270C8B5E00EF995B /* electronics-ebike-ios-app */,
+				203107D9270C8B5F00EF995B /* electronics-ebike-ios-appTests */,
+				203107E3270C8B5F00EF995B /* electronics-ebike-ios-appUITests */,
+				203107BE270C8B5E00EF995B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		203107BE270C8B5E00EF995B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				203107BD270C8B5E00EF995B /* electronics-ebike-ios-app.app */,
+				203107D6270C8B5F00EF995B /* electronics-ebike-ios-appTests.xctest */,
+				203107E0270C8B5F00EF995B /* electronics-ebike-ios-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		203107BF270C8B5E00EF995B /* electronics-ebike-ios-app */ = {
+			isa = PBXGroup;
+			children = (
+				203107C0270C8B5E00EF995B /* AppDelegate.swift */,
+				203107C2270C8B5E00EF995B /* SceneDelegate.swift */,
+				203107C4270C8B5E00EF995B /* ViewController.swift */,
+				203107C6270C8B5E00EF995B /* Main.storyboard */,
+				203107CC270C8B5F00EF995B /* Assets.xcassets */,
+				203107CE270C8B5F00EF995B /* LaunchScreen.storyboard */,
+				203107D1270C8B5F00EF995B /* Info.plist */,
+				203107C9270C8B5E00EF995B /* electronics_ebike_ios_app.xcdatamodeld */,
+			);
+			path = "electronics-ebike-ios-app";
+			sourceTree = "<group>";
+		};
+		203107D9270C8B5F00EF995B /* electronics-ebike-ios-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				203107DA270C8B5F00EF995B /* electronics_ebike_ios_appTests.swift */,
+			);
+			path = "electronics-ebike-ios-appTests";
+			sourceTree = "<group>";
+		};
+		203107E3270C8B5F00EF995B /* electronics-ebike-ios-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				203107E4270C8B5F00EF995B /* electronics_ebike_ios_appUITests.swift */,
+				203107E6270C8B5F00EF995B /* electronics_ebike_ios_appUITestsLaunchTests.swift */,
+			);
+			path = "electronics-ebike-ios-appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		203107BC270C8B5E00EF995B /* electronics-ebike-ios-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 203107EA270C8B5F00EF995B /* Build configuration list for PBXNativeTarget "electronics-ebike-ios-app" */;
+			buildPhases = (
+				203107B9270C8B5E00EF995B /* Sources */,
+				203107BA270C8B5E00EF995B /* Frameworks */,
+				203107BB270C8B5E00EF995B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "electronics-ebike-ios-app";
+			productName = "electronics-ebike-ios-app";
+			productReference = 203107BD270C8B5E00EF995B /* electronics-ebike-ios-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		203107D5270C8B5F00EF995B /* electronics-ebike-ios-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 203107ED270C8B5F00EF995B /* Build configuration list for PBXNativeTarget "electronics-ebike-ios-appTests" */;
+			buildPhases = (
+				203107D2270C8B5F00EF995B /* Sources */,
+				203107D3270C8B5F00EF995B /* Frameworks */,
+				203107D4270C8B5F00EF995B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				203107D8270C8B5F00EF995B /* PBXTargetDependency */,
+			);
+			name = "electronics-ebike-ios-appTests";
+			productName = "electronics-ebike-ios-appTests";
+			productReference = 203107D6270C8B5F00EF995B /* electronics-ebike-ios-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		203107DF270C8B5F00EF995B /* electronics-ebike-ios-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 203107F0270C8B5F00EF995B /* Build configuration list for PBXNativeTarget "electronics-ebike-ios-appUITests" */;
+			buildPhases = (
+				203107DC270C8B5F00EF995B /* Sources */,
+				203107DD270C8B5F00EF995B /* Frameworks */,
+				203107DE270C8B5F00EF995B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				203107E2270C8B5F00EF995B /* PBXTargetDependency */,
+			);
+			name = "electronics-ebike-ios-appUITests";
+			productName = "electronics-ebike-ios-appUITests";
+			productReference = 203107E0270C8B5F00EF995B /* electronics-ebike-ios-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		203107B5270C8B5E00EF995B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					203107BC270C8B5E00EF995B = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					203107D5270C8B5F00EF995B = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 203107BC270C8B5E00EF995B;
+					};
+					203107DF270C8B5F00EF995B = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 203107BC270C8B5E00EF995B;
+					};
+				};
+			};
+			buildConfigurationList = 203107B8270C8B5E00EF995B /* Build configuration list for PBXProject "electronics-ebike-ios-app" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 203107B4270C8B5E00EF995B;
+			productRefGroup = 203107BE270C8B5E00EF995B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				203107BC270C8B5E00EF995B /* electronics-ebike-ios-app */,
+				203107D5270C8B5F00EF995B /* electronics-ebike-ios-appTests */,
+				203107DF270C8B5F00EF995B /* electronics-ebike-ios-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		203107BB270C8B5E00EF995B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				203107D0270C8B5F00EF995B /* LaunchScreen.storyboard in Resources */,
+				203107CD270C8B5F00EF995B /* Assets.xcassets in Resources */,
+				203107C8270C8B5E00EF995B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		203107D4270C8B5F00EF995B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		203107DE270C8B5F00EF995B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		203107B9270C8B5E00EF995B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				203107C5270C8B5E00EF995B /* ViewController.swift in Sources */,
+				203107C1270C8B5E00EF995B /* AppDelegate.swift in Sources */,
+				203107CB270C8B5E00EF995B /* electronics_ebike_ios_app.xcdatamodeld in Sources */,
+				203107C3270C8B5E00EF995B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		203107D2270C8B5F00EF995B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				203107DB270C8B5F00EF995B /* electronics_ebike_ios_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		203107DC270C8B5F00EF995B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				203107E5270C8B5F00EF995B /* electronics_ebike_ios_appUITests.swift in Sources */,
+				203107E7270C8B5F00EF995B /* electronics_ebike_ios_appUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		203107D8270C8B5F00EF995B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 203107BC270C8B5E00EF995B /* electronics-ebike-ios-app */;
+			targetProxy = 203107D7270C8B5F00EF995B /* PBXContainerItemProxy */;
+		};
+		203107E2270C8B5F00EF995B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 203107BC270C8B5E00EF995B /* electronics-ebike-ios-app */;
+			targetProxy = 203107E1270C8B5F00EF995B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		203107C6270C8B5E00EF995B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				203107C7270C8B5E00EF995B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		203107CE270C8B5F00EF995B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				203107CF270C8B5F00EF995B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		203107E8270C8B5F00EF995B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		203107E9270C8B5F00EF995B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		203107EB270C8B5F00EF995B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J4HJ6H9933;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "electronics-ebike-ios-app/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.decathlon.electronics-ebike-ios-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		203107EC270C8B5F00EF995B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J4HJ6H9933;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "electronics-ebike-ios-app/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.decathlon.electronics-ebike-ios-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		203107EE270C8B5F00EF995B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J4HJ6H9933;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.decathlon.electronics-ebike-ios-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/electronics-ebike-ios-app.app/electronics-ebike-ios-app";
+			};
+			name = Debug;
+		};
+		203107EF270C8B5F00EF995B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J4HJ6H9933;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.decathlon.electronics-ebike-ios-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/electronics-ebike-ios-app.app/electronics-ebike-ios-app";
+			};
+			name = Release;
+		};
+		203107F1270C8B5F00EF995B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J4HJ6H9933;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.decathlon.electronics-ebike-ios-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "electronics-ebike-ios-app";
+			};
+			name = Debug;
+		};
+		203107F2270C8B5F00EF995B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J4HJ6H9933;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.decathlon.electronics-ebike-ios-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "electronics-ebike-ios-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		203107B8270C8B5E00EF995B /* Build configuration list for PBXProject "electronics-ebike-ios-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				203107E8270C8B5F00EF995B /* Debug */,
+				203107E9270C8B5F00EF995B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		203107EA270C8B5F00EF995B /* Build configuration list for PBXNativeTarget "electronics-ebike-ios-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				203107EB270C8B5F00EF995B /* Debug */,
+				203107EC270C8B5F00EF995B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		203107ED270C8B5F00EF995B /* Build configuration list for PBXNativeTarget "electronics-ebike-ios-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				203107EE270C8B5F00EF995B /* Debug */,
+				203107EF270C8B5F00EF995B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		203107F0270C8B5F00EF995B /* Build configuration list for PBXNativeTarget "electronics-ebike-ios-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				203107F1270C8B5F00EF995B /* Debug */,
+				203107F2270C8B5F00EF995B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		203107C9270C8B5E00EF995B /* electronics_ebike_ios_app.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				203107CA270C8B5E00EF995B /* electronics_ebike_ios_app.xcdatamodel */,
+			);
+			currentVersion = 203107CA270C8B5E00EF995B /* electronics_ebike_ios_app.xcdatamodel */;
+			path = electronics_ebike_ios_app.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 203107B5270C8B5E00EF995B /* Project object */;
+}
